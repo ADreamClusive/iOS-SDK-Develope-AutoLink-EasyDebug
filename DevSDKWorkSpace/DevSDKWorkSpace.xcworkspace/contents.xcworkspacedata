@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ADreamClusive/ADreamClusive.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ADreamClusiveSDK/ADreamClusiveSDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ADreamClusiveStaticSDK/ADreamClusiveStaticSDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ADSDKDemo/ADSDKDemo.xcodeproj">
+   </FileRef>
+</Workspace>

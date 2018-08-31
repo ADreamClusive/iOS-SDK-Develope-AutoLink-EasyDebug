@@ -1,0 +1,43 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusiveSDK/build/Release-iphoneos/ADreamClusiveSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ADView.h",
+          'external-contents': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusiveSDK/ADreamClusiveSDK/ADView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ADreamClusiveSDK-Swift.h",
+          'external-contents': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusiveSDK/build/Release-iphoneos/ADreamClusiveSDK.framework/Headers/ADreamClusiveSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ADreamClusiveSDK.h",
+          'external-contents': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusiveSDK/ADreamClusiveSDK/ADreamClusiveSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "HomeViewController.h",
+          'external-contents': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusive/ADreamClusive/Home/HomeViewController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusiveSDK/build/Release-iphoneos/ADreamClusiveSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusiveSDK/build/ADreamClusiveSDK.build/Release-iphoneos/ADreamClusiveSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

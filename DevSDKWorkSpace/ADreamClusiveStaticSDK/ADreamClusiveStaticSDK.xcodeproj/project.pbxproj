@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		72E8FC4A21391E3D00DAE3DD /* ADStaticSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72E8FC4B21391E3D00DAE3DD /* Build configuration list for PBXAggregateTarget "ADStaticSDK" */;
+			buildPhases = (
+				72E8FC4E21391E4B00DAE3DD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ADStaticSDK;
+			productName = ADStaticSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		72D8A23E21394E94000ED1EE /* ADNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D8A23C21394E93000ED1EE /* ADNewView.m */; };
+		72D8A23F2139502B000ED1EE /* ADNewView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 72D8A23D21394E94000ED1EE /* ADNewView.h */; };
+		72E8FC4321391D5E00DAE3DD /* ADreamClusiveStaticSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E8FC4221391D5E00DAE3DD /* ADreamClusiveStaticSDK.m */; };
+		72E8FC4421391D5E00DAE3DD /* ADreamClusiveStaticSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 72E8FC4121391D5E00DAE3DD /* ADreamClusiveStaticSDK.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72E8FC3C21391D5E00DAE3DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				72D8A23F2139502B000ED1EE /* ADNewView.h in CopyFiles */,
+				72E8FC4421391D5E00DAE3DD /* ADreamClusiveStaticSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		72D8A23C21394E93000ED1EE /* ADNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNewView.m; path = ../../ADreamClusive/ADreamClusive/Home/ADNewView.m; sourceTree = "<group>"; };
+		72D8A23D21394E94000ED1EE /* ADNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNewView.h; path = ../../ADreamClusive/ADreamClusive/Home/ADNewView.h; sourceTree = "<group>"; };
+		72E8FC3E21391D5E00DAE3DD /* libADreamClusiveStaticSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libADreamClusiveStaticSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E8FC4121391D5E00DAE3DD /* ADreamClusiveStaticSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADreamClusiveStaticSDK.h; sourceTree = "<group>"; };
+		72E8FC4221391D5E00DAE3DD /* ADreamClusiveStaticSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADreamClusiveStaticSDK.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72E8FC3B21391D5E00DAE3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72E8FC3521391D5E00DAE3DD = {
+			isa = PBXGroup;
+			children = (
+				72E8FC4021391D5E00DAE3DD /* ADreamClusiveStaticSDK */,
+				72E8FC3F21391D5E00DAE3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72E8FC3F21391D5E00DAE3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72E8FC3E21391D5E00DAE3DD /* libADreamClusiveStaticSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72E8FC4021391D5E00DAE3DD /* ADreamClusiveStaticSDK */ = {
+			isa = PBXGroup;
+			children = (
+				72D8A23D21394E94000ED1EE /* ADNewView.h */,
+				72D8A23C21394E93000ED1EE /* ADNewView.m */,
+				72E8FC4121391D5E00DAE3DD /* ADreamClusiveStaticSDK.h */,
+				72E8FC4221391D5E00DAE3DD /* ADreamClusiveStaticSDK.m */,
+			);
+			path = ADreamClusiveStaticSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72E8FC3D21391D5E00DAE3DD /* ADreamClusiveStaticSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72E8FC4721391D5E00DAE3DD /* Build configuration list for PBXNativeTarget "ADreamClusiveStaticSDK" */;
+			buildPhases = (
+				72E8FC3A21391D5E00DAE3DD /* Sources */,
+				72E8FC3B21391D5E00DAE3DD /* Frameworks */,
+				72E8FC3C21391D5E00DAE3DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADreamClusiveStaticSDK;
+			productName = ADreamClusiveStaticSDK;
+			productReference = 72E8FC3E21391D5E00DAE3DD /* libADreamClusiveStaticSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72E8FC3621391D5E00DAE3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jiaozl;
+				TargetAttributes = {
+					72E8FC3D21391D5E00DAE3DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					72E8FC4A21391E3D00DAE3DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 72E8FC3921391D5E00DAE3DD /* Build configuration list for PBXProject "ADreamClusiveStaticSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72E8FC3521391D5E00DAE3DD;
+			productRefGroup = 72E8FC3F21391D5E00DAE3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72E8FC3D21391D5E00DAE3DD /* ADreamClusiveStaticSDK */,
+				72E8FC4A21391E3D00DAE3DD /* ADStaticSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72E8FC4E21391E4B00DAE3DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\n\n#要build的target名\ntarget_Name=${PROJECT_NAME}\necho \"target_Name=${target_Name}\"\n\n#build之后的文件夹路径\nbuild_DIR=${SRCROOT}/build\necho \"build_DIR=${build_DIR}\"\n\n#真机build生成的头文件的文件夹路径\nDEVICE_DIR_INCLUDE=${build_DIR}/Release-iphoneos/include/${PROJECT_NAME}\necho \"DEVICE_DIR_INCLUDE=${DEVICE_DIR_INCLUDE}\"\n\n#真机build生成的.a文件路径\nDEVICE_DIR_A=${build_DIR}/Release-iphoneos/lib${PROJECT_NAME}.a\necho \"DEVICE_DIR_A=${DEVICE_DIR_A}\"\n\n#模拟器build生成的.a文件路径\nSIMULATOR_DIR_A=${build_DIR}/Release-iphonesimulator/lib${PROJECT_NAME}.a\necho \"SIMULATOR_DIR_A=${SIMULATOR_DIR_A}\"\n\n#目标文件夹路径\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}\necho \"INSTALL_DIR=${INSTALL_DIR}\"\n\n#目标头文件文件夹路径\nINSTALL_DIR_Headers=${SRCROOT}/Products/${PROJECT_NAME}/Headers\necho \"INSTALL_DIR_Headers=${INSTALL_DIR_Headers}\"\n\n#目标.a路径\nINSTALL_DIR_A=${SRCROOT}/Products/${PROJECT_NAME}/lib${PROJECT_NAME}.a\necho \"INSTALL_DIR_A=${INSTALL_DIR_A}\"\n\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${build_DIR}\" ]\nthen\nrm -rf \"${build_DIR}\"\nfi\n\n#判断目标文件夹是否存在，存在则删除该文件夹\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n#创建目标文件夹\nmkdir -p \"${INSTALL_DIR}\"\n\n#build之前clean一下\nxcodebuild -target ${target_Name} clean\n\n#模拟器build\nxcodebuild -target ${target_Name} -configuration Release -sdk iphonesimulator\n\n#真机build\nxcodebuild -target ${target_Name} -configuration Release -sdk iphoneos\n\n#复制头文件到目标文件夹\ncp -R \"${DEVICE_DIR_INCLUDE}\" \"${INSTALL_DIR_Headers}\"\n\n#合成模拟器和真机.a包\nlipo -create \"${DEVICE_DIR_A}\" \"${SIMULATOR_DIR_A}\" -output \"${INSTALL_DIR_A}\"\n\n#打开目标文件夹\nopen \"${INSTALL_DIR}\"\n\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72E8FC3A21391D5E00DAE3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D8A23E21394E94000ED1EE /* ADNewView.m in Sources */,
+				72E8FC4321391D5E00DAE3DD /* ADreamClusiveStaticSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72E8FC4521391D5E00DAE3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72E8FC4621391D5E00DAE3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72E8FC4821391D5E00DAE3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25XN666T2Y;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fembed-bitcode",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72E8FC4921391D5E00DAE3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25XN666T2Y;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fembed-bitcode",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72E8FC4C21391E3D00DAE3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25XN666T2Y;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72E8FC4D21391E3D00DAE3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25XN666T2Y;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72E8FC3921391D5E00DAE3DD /* Build configuration list for PBXProject "ADreamClusiveStaticSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E8FC4521391D5E00DAE3DD /* Debug */,
+				72E8FC4621391D5E00DAE3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E8FC4721391D5E00DAE3DD /* Build configuration list for PBXNativeTarget "ADreamClusiveStaticSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E8FC4821391D5E00DAE3DD /* Debug */,
+				72E8FC4921391D5E00DAE3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E8FC4B21391E3D00DAE3DD /* Build configuration list for PBXAggregateTarget "ADStaticSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E8FC4C21391E3D00DAE3DD /* Debug */,
+				72E8FC4D21391E3D00DAE3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72E8FC3621391D5E00DAE3DD /* Project object */;
+}

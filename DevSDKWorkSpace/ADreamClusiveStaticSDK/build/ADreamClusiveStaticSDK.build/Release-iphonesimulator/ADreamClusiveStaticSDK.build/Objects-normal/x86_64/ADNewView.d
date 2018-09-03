@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusive/ADreamClusive/Home/ADNewView.m \
-  /Users/xihekouyu18/Desktop/DevSDKWorkSpace/ADreamClusive/ADreamClusive/Home/ADNewView.h
+  /Users/xihekouyu18/Documents/GitHub/iOS-SDK-Develope-AutoLink-EasyDebug/DevSDKWorkSpace/ADreamClusive/ADreamClusive/Home/ADNewView.m \
+  /Users/xihekouyu18/Documents/GitHub/iOS-SDK-Develope-AutoLink-EasyDebug/DevSDKWorkSpace/ADreamClusive/ADreamClusive/Home/ADNewView.h

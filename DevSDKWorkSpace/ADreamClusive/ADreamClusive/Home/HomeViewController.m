@@ -28,7 +28,11 @@
     
     NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"ADreamClusiveBundle" ofType:@"bundle"];
     NSBundle *resourceBundle = [NSBundle bundleWithPath:bundlePath];
-    //    UIViewController *vc = [[UIViewController alloc] initWithNibName:@"vc_name" bundle:resourceBundle];
+    
+    // VC的nib资源
+    UIViewController *vc = [[UIViewController alloc] initWithNibName:@"vc_name" bundle:resourceBundle];
+    
+    // 图片资源
     UIImageView *imgView2 = [[UIImageView alloc] initWithFrame:CGRectMake(120, 50, 100, 50)];
     imgView2.image = [UIImage imageNamed:@"buynew" inBundle:resourceBundle compatibleWithTraitCollection:nil];
     [self.view addSubview:imgView2];

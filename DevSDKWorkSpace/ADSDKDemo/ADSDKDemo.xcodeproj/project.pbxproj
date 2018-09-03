@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72D8A22B21394BCB000ED1EE /* ADreamClusiveBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72D8A22A21394BCB000ED1EE /* ADreamClusiveBundle.bundle */; };
+		72802AAF213CD6DB001F5BE1 /* ADreamClusiveBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72802AAE213CD6DA001F5BE1 /* ADreamClusiveBundle.bundle */; };
 		72D8A23421394C9E000ED1EE /* libADreamClusiveStaticSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D8A23121394C9E000ED1EE /* libADreamClusiveStaticSDK.a */; };
 		72D8A23621394CEC000ED1EE /* ADreamClusiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D8A23521394CEC000ED1EE /* ADreamClusiveSDK.framework */; };
 		72D8A23821394D6E000ED1EE /* SourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72D8A23721394D6E000ED1EE /* SourceBundle.bundle */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72D8A22A21394BCB000ED1EE /* ADreamClusiveBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ADreamClusiveBundle.bundle; path = "../../../../Library/Developer/Xcode/DerivedData/DevSDKWorkSpace-aqzfzchyjsjbnqflrhnlhwxyylts/Build/Products/Debug/ADreamClusiveBundle.bundle"; sourceTree = "<group>"; };
+		72802AAE213CD6DA001F5BE1 /* ADreamClusiveBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ADreamClusiveBundle.bundle; path = "../../../../../../Library/Developer/Xcode/DerivedData/DevSDKWorkSpace-gcrpctyndvkavzcbhhylmeanmyln/Build/Products/Debug/ADreamClusiveBundle.bundle"; sourceTree = "<group>"; };
 		72D8A23121394C9E000ED1EE /* libADreamClusiveStaticSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libADreamClusiveStaticSDK.a; sourceTree = "<group>"; };
 		72D8A23321394C9E000ED1EE /* ADreamClusiveStaticSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADreamClusiveStaticSDK.h; sourceTree = "<group>"; };
 		72D8A23521394CEC000ED1EE /* ADreamClusiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADreamClusiveSDK.framework; path = ../../ADreamClusiveSDK/Products/ADreamClusiveSDK/ADreamClusiveSDK.framework; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			children = (
 				72D8A23521394CEC000ED1EE /* ADreamClusiveSDK.framework */,
 				72D8A23021394C9E000ED1EE /* ADreamClusiveStaticSDK */,
-				72D8A22A21394BCB000ED1EE /* ADreamClusiveBundle.bundle */,
+				72802AAE213CD6DA001F5BE1 /* ADreamClusiveBundle.bundle */,
 				72D8A23721394D6E000ED1EE /* SourceBundle.bundle */,
 			);
 			path = Third;
@@ -175,7 +175,7 @@
 				72E8FC23213913B900DAE3DD /* LaunchScreen.storyboard in Resources */,
 				72E8FC20213913B900DAE3DD /* Assets.xcassets in Resources */,
 				72E8FC1E213913B800DAE3DD /* Main.storyboard in Resources */,
-				72D8A22B21394BCB000ED1EE /* ADreamClusiveBundle.bundle in Resources */,
+				72802AAF213CD6DB001F5BE1 /* ADreamClusiveBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
